@@ -1,0 +1,208 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.font-family {
+    font-family: 'Sacramento', cursive;
+    font-size: 55px;
+}
+
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/bg-img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-p {
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 400px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-left: 167px;
+}
+
+.btn-red {
+    background-color: #fff;
+    color: #F14E95;
+}
+
+.hello-h3 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #F14E95;
+    font-family: 'Sacramento', cursive;
+}
+
+.p-hello {
+    color: #000;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+
+.p-hello2 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #828282;
+}
+
+.img-hello {
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.name-p {
+    font-family: 'Sacramento', cursive;
+    color: #F14E95;
+    font-size: 30px;
+}
+
+.hello-p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #828282
+}
+
+.spl-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/bg-img/img_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spl-p {
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.spl-span {
+    font-size: 60px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+    font-family: 'Sacramento', cursive;
+}
+
+.story-p {
+    font-family: 'Sacramento', cursive;
+    color: #F14E95;
+    font-size: 40px;
+}
+
+.event-sec {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.weeding {
+    color: #F14E95;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+
+.copule-img {
+    height: 20vh;
+    align-items: center;
+}
+
+.friends-1 {
+    color: #F14E95;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+
+.foot-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/bg-img/img_bg_4\ \(1\).jpg);
+    color: white;
+}
+
+.para-sec {
+    width: 70px;
+}
+
+.inp-sec {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+}
+
+::placeholder {
+    color: #ffff;
+}
+
+.btn-am {
+    background-color: #F14E95;
+    color: #fff;
+}
+
+.foot-icon {
+    color: #F14E95;
+}
+
+@media (min-width:992px) {
+    .img-event {
+        width: 100%;
+        height: 198px;
+    }
+}
+
+@media (min-width:1200px) {
+    .img-event {
+        width: 100%;
+        height: 235px;
+    }
+}
+
+@media (min-width:1400px) {
+    .img-event {
+        width: 100%;
+        height: 275px;
+    }
+}
